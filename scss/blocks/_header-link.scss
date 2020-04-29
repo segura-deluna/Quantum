@@ -1,0 +1,42 @@
+.header__links {
+	display: flex;
+	align-items: center;
+}
+
+.header-link {
+	display: flex;
+	align-items: center;
+	color: $gray;
+
+	&:not(:first-child) {
+		margin-left: 35px;
+	}
+
+	&:hover {
+		color: $blue;
+	}
+}
+
+.header-link__icon {
+	width: 21px;
+	height: 21px;
+	margin-right: 15px;
+	position: relative;
+}
+
+.header-link--notify .header-link__icon::after {
+	position: absolute;
+	top: -8px;
+	right: -7px;
+	content: "";
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: $blue;
+}
+
+.header-link__text {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+}
