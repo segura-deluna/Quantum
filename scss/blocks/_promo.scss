@@ -1,0 +1,93 @@
+.promo {
+	margin-bottom: 40px;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__col {
+		width: 100%;
+		max-width: 350px;
+	}
+}
+
+.promo-item {
+	max-width: 350px;
+	height: 330px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 35px;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+	}
+
+	&__link {
+		display: block;
+	}
+
+	&__title {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: $gray-title;
+		margin-bottom: 20px;
+	}
+
+	&__subtitle {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1;
+		color: $gray-light;
+		margin-bottom: 15px;
+	}
+}
+
+// * Item with background ==========
+
+.promo-item--bg-img {
+	background-image: url("./../img/promo/watch-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	justify-content: flex-end;
+	transition: transform 0.3s ease-in;
+	&:hover {
+		transform: scale(1.01);
+	}
+	.promo-item__title {
+		color: #ffffff;
+	}
+}
+
+// * Small blocks ===================
+
+.promo__col--small {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.promo-item--small {
+	flex-direction: row;
+	height: 150px;
+	padding: 20px;
+}
+
+.promo-item__img-cell {
+	margin-right: 20px;
+}
+
+.promo-item__title-cell {
+	text-align: left;
+	width: 160px;
+	color: $gray-title;
+	h4 {
+		line-height: 2;
+	}
+}
