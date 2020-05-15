@@ -22,7 +22,7 @@ selectAllElements.forEach(function (item) {
 
 
 
-// * Carousel =======
+// * Carousel ===============================
 $(document).ready(function () {
 	$("#carousel-header").owlCarousel({
 		items: 1,

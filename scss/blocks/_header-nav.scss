@@ -59,14 +59,12 @@
 }
 
 .header-nav__select-item {
-	padding: 0 40px 0 30px;
-
+	width: 100%;
 	&:not(:last-child) {
 		border-right: 2px solid $border;
 	}
 
 	& .header-select--nav {
-
 		& .header-select__title {
 			width: auto;
 			text-transform: none;
