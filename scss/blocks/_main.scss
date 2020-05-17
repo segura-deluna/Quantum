@@ -1,0 +1,13 @@
+.main {
+	margin-bottom: 30px;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		width: 100%;
+		max-width: 825px;
+		background-color: rgba(93, 166, 192, 0.28);
+	}
+}

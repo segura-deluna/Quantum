@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 16 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b5b5b5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="watch.svg" class="cls-1" d="M187,1814a6,6,0,1,1,6,6A6,6,0,0,1,187,1814Zm14,0a7.973,7.973,0,0,0-3.04-6.27L197,1802h-8l-0.95,5.73a7.968,7.968,0,0,0,0,12.54L189,1826h8l0.959-5.73A7.973,7.973,0,0,0,201,1814Z" transform="translate(-185 -1802)"/>
+</svg>

@@ -1,0 +1,59 @@
+.navbar {
+	width: 100%;
+	max-width: 255px;
+	flex-shrink: 0;
+	@include card;
+
+	&__list {
+		width: 100%;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px;
+
+		&:not(:last-child) {
+			border-bottom: 2px solid $border;
+		}
+		&:hover {
+			cursor: pointer;
+			.navbar__item-text {
+				color: $blue;
+			}
+			svg {
+				fill: $blue;
+			}
+		}
+	}
+	&__item-name {
+		display: flex;
+		align-items: center;
+	}
+	&__item-img {
+		width: 30px;
+		height: 30px;
+		margin-right: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		svg {
+			fill: #ccc;
+			fill-rule: evenodd;
+			transition: fill 0.2s ease-in;
+		}
+	}
+	&__item-text {
+		font-size: 13px;
+		color: $gray;
+		transition: color 0.2s ease-in;
+	}
+	&__item-arrow {
+		svg {
+			fill: #b5b5b5;
+			fill-rule: evenodd;
+			transition: fill 0.2s ease-in;
+		}
+	}
+}

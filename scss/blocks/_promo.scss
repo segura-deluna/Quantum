@@ -14,7 +14,7 @@
 .promo-item {
 	max-width: 350px;
 	height: 330px;
-	border-radius: 5px;
+	border-radius: 6px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 	background-color: #ffffff;
 	display: flex;
@@ -23,8 +23,9 @@
 	justify-content: center;
 	text-align: center;
 	padding: 35px;
-	transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.5s ease, transform 0.5s ease;
 	&:hover {
+		transform: translateY(-5px);
 		box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 	}
 
