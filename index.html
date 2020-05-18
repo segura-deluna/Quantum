@@ -46,7 +46,7 @@
 					<a href="#" class="header-link header-link--notify">
 						<span class="header-link__icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="20.156" height="20" viewBox="0 0 20.156 20">
-								<path id="cart" class="cls-1"
+								<path
 									d="M915,377a2,2,0,1,0,2,2A2,2,0,0,0,915,377Zm-11.992,2A2,2,0,1,0,905,377,2,2,0,0,0,903.008,379Zm13.3-14H904.16l2.24,4.73,0.129,0.27h7.021Zm-13.1-2H919l0.16,0.96-3.862,7.01A1.988,1.988,0,0,1,913.55,372H906.1l-0.9,1.63-0.03.12a0.256,0.256,0,0,0,.249.25H917v2H905a2.005,2.005,0,0,1-2-2,1.933,1.933,0,0,1,.249-0.96l1.352-2.45L901,363h-2v-2h3.269Z"
 									transform="translate(-899 -361)" />
 							</svg>
@@ -56,7 +56,7 @@
 					<a href="#" class="header-link">
 						<span class="header-link__icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.344" viewBox="0 0 20 18.344">
-								<path id="wishlist" class="cls-1"
+								<path
 									d="M1030.1,377.55l-0.1.1-0.1-.1c-4.76-4.31-7.9-7.16-7.9-10.05a3.418,3.418,0,0,1,3.5-3.5,3.909,3.909,0,0,1,3.57,2.36h1.87a3.885,3.885,0,0,1,3.56-2.36,3.418,3.418,0,0,1,3.5,3.5C1038,370.39,1034.86,373.24,1030.1,377.55Zm4.4-15.55a5.889,5.889,0,0,1-9,0,5.447,5.447,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.55,11.54l1.45,1.31,1.45-1.32c5.15-4.67,8.55-7.75,8.55-11.53A5.447,5.447,0,0,0,1034.5,362Z"
 									transform="translate(-1020 -362)" />
 							</svg>
@@ -66,7 +66,7 @@
 					<a href="#" class="header-link">
 						<span class="header-link__icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-								<path id="user.svg" class="cls-1"
+								<path
 									d="M1165,372c-2.67,0-8,1.34-8,4v3h16v-3C1173,373.34,1167.67,372,1165,372Zm0-9a4,4,0,1,0,4,4A4,4,0,0,0,1165,363Zm0,10.9c2.97,0,6.1,1.46,6.1,2.1v1.1h-12.2V376C1158.9,375.36,1162.03,373.9,1165,373.9Zm0-9a2.1,2.1,0,1,1-2.1,2.1A2.1,2.1,0,0,1,1165,364.9Z"
 									transform="translate(-1157 -363)" />
 							</svg>
@@ -86,8 +86,7 @@
 						<a href="#" class="header-nav__categories-link">
 							<span class="header-nav__categories-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12">
-									<path id="menu-icon" class="cls-1"
-										d="M197,459v2h18v-2H197Zm0,7h18v-2H197v2Zm0,5h18v-2H197v2Z"
+									<path d="M197,459v2h18v-2H197Zm0,7h18v-2H197v2Zm0,5h18v-2H197v2Z"
 										transform="translate(-197 -459)" />
 								</svg>
 							</span>
@@ -243,215 +242,559 @@
 		<div class="container">
 			<div class="main__row">
 
-				<nav class="navbar">
-					<ul class="navbar__list">
+				<div class="main__aside">
+					<nav class="navbar">
+						<ul class="navbar__list">
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20">
-										<path
-											d="M202,1280H184v-12h18v12Zm0-14H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h7v2h-2v2h8v-2h-2v-2h7a2.005,2.005,0,0,0,2-2v-12A2.005,2.005,0,0,0,202,1266Z"
-											transform="translate(-182 -1266)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+											viewBox="0 0 22 20">
+											<path
+												d="M202,1280H184v-12h18v12Zm0-14H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h7v2h-2v2h8v-2h-2v-2h7a2.005,2.005,0,0,0,2-2v-12A2.005,2.005,0,0,0,202,1266Z"
+												transform="translate(-182 -1266)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Computers</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Computers</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20">
-										<path
-											d="M202,1338H184v-10h18v10Zm0-12H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h7l-2,3v1h8v-1l-2-3h7a2.005,2.005,0,0,0,2-2v-12A2.005,2.005,0,0,0,202,1326Z"
-											transform="translate(-182 -1326)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+											viewBox="0 0 22 20">
+											<path
+												d="M202,1338H184v-10h18v10Zm0-12H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h7l-2,3v1h8v-1l-2-3h7a2.005,2.005,0,0,0,2-2v-12A2.005,2.005,0,0,0,202,1326Z"
+												transform="translate(-182 -1326)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Apple Computers</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Apple Computers</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
-										<path
-											d="M186,1391h16v10H186v-10Zm16,12a2,2,0,0,0,1.988-2L204,1391a2.005,2.005,0,0,0-2-2H186a2.007,2.007,0,0,0-2,2v10a2.007,2.007,0,0,0,2,2h-4v2h24v-2h-4Z"
-											transform="translate(-182 -1389)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16"
+											viewBox="0 0 24 16">
+											<path
+												d="M186,1391h16v10H186v-10Zm16,12a2,2,0,0,0,1.988-2L204,1391a2.005,2.005,0,0,0-2-2H186a2.007,2.007,0,0,0-2,2v10a2.007,2.007,0,0,0,2,2h-4v2h24v-2h-4Z"
+												transform="translate(-182 -1389)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Laptops</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Laptops</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
-										<path
-											d="M200,1453h-2v-2h2v2Zm0,3h-2v-2h2v2Zm-3-3h-2v-2h2v2Zm0,3h-2v-2h2v2Zm0,4h-8v-2h8v2Zm-9-7h-2v-2h2v2Zm0,3h-2v-2h2v2Zm1-2h2v2h-2v-2Zm0-3h2v2h-2v-2Zm3,3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm9-3H185a2,2,0,0,0-1.989,2L183,1460a2,2,0,0,0,2,2h16a2.005,2.005,0,0,0,2-2v-10A2.005,2.005,0,0,0,201,1448Z"
-											transform="translate(-183 -1448)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+											viewBox="0 0 20 14">
+											<path
+												d="M200,1453h-2v-2h2v2Zm0,3h-2v-2h2v2Zm-3-3h-2v-2h2v2Zm0,3h-2v-2h2v2Zm0,4h-8v-2h8v2Zm-9-7h-2v-2h2v2Zm0,3h-2v-2h2v2Zm1-2h2v2h-2v-2Zm0-3h2v2h-2v-2Zm3,3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm9-3H185a2,2,0,0,0-1.989,2L183,1460a2,2,0,0,0,2,2h16a2.005,2.005,0,0,0,2-2v-10A2.005,2.005,0,0,0,201,1448Z"
+												transform="translate(-183 -1448)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Friends</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Friends</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-										<path
-											d="M197,1519H187v-10h10v10Zm4-6v-2h-2v-2a2,2,0,0,0-2-2h-2v-2h-2v2h-2v-2h-2v2h-2a2.007,2.007,0,0,0-2,2v2h-2v2h2v2h-2v2h2v2a2.007,2.007,0,0,0,2,2h2v2h2v-2h2v2h2v-2h2a2,2,0,0,0,2-2v-2h2v-2h-2v-2h2Zm-8,2h-2v-2h2v2Zm2-4h-6v6h6v-6Z"
-											transform="translate(-183 -1505)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+											viewBox="0 0 18 18">
+											<path
+												d="M197,1519H187v-10h10v10Zm4-6v-2h-2v-2a2,2,0,0,0-2-2h-2v-2h-2v2h-2v-2h-2v2h-2a2.007,2.007,0,0,0-2,2v2h-2v2h2v2h-2v2h2v2a2.007,2.007,0,0,0,2,2h2v2h2v-2h2v2h2v-2h2a2,2,0,0,0,2-2v-2h2v-2h-2v-2h2Zm-8,2h-2v-2h2v2Zm2-4h-6v6h6v-6Z"
+												transform="translate(-183 -1505)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Computer Components</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Computer Components</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20">
-										<path
-											d="M192,1574a3,3,0,1,0,3,3A3,3,0,0,0,192,1574Zm0,8a5,5,0,1,1,5-5A5,5,0,0,1,192,1582Zm0-16a2,2,0,1,1-2,2A2.006,2.006,0,0,1,192,1566Zm5-2H187a2.007,2.007,0,0,0-2,2v16a2,2,0,0,0,2,1.99l10,0.01a2,2,0,0,0,2-2v-16A2,2,0,0,0,197,1564Z"
-											transform="translate(-185 -1564)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20"
+											viewBox="0 0 14 20">
+											<path
+												d="M192,1574a3,3,0,1,0,3,3A3,3,0,0,0,192,1574Zm0,8a5,5,0,1,1,5-5A5,5,0,0,1,192,1582Zm0-16a2,2,0,1,1-2,2A2.006,2.006,0,0,1,192,1566Zm5-2H187a2.007,2.007,0,0,0-2,2v16a2,2,0,0,0,2,1.99l10,0.01a2,2,0,0,0,2-2v-16A2,2,0,0,0,197,1564Z"
+												transform="translate(-185 -1564)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Accessories</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Accessories</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22">
-										<path
-											d="M197,1642h-9v-14h9v14Zm-4.5,4a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,192.5,1646Zm4-21h-8a2.5,2.5,0,0,0-2.5,2.5v17a2.5,2.5,0,0,0,2.5,2.5h8a2.5,2.5,0,0,0,2.5-2.5v-17A2.5,2.5,0,0,0,196.5,1625Z"
-											transform="translate(-186 -1625)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="13" height="22"
+											viewBox="0 0 13 22">
+											<path
+												d="M197,1642h-9v-14h9v14Zm-4.5,4a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,192.5,1646Zm4-21h-8a2.5,2.5,0,0,0-2.5,2.5v17a2.5,2.5,0,0,0,2.5,2.5h8a2.5,2.5,0,0,0,2.5-2.5v-17A2.5,2.5,0,0,0,196.5,1625Z"
+												transform="translate(-186 -1625)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Cell Phones</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Cell Phones</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18">
-										<path
-											d="M202,1701H184v-12h18v12Zm0-14H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h5v2h8v-2h5a2,2,0,0,0,1.988-2L204,1689A2.005,2.005,0,0,0,202,1687Z"
-											transform="translate(-182 -1687)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="18"
+											viewBox="0 0 22 18">
+											<path
+												d="M202,1701H184v-12h18v12Zm0-14H184a2.006,2.006,0,0,0-2,2v12a2.006,2.006,0,0,0,2,2h5v2h8v-2h5a2,2,0,0,0,1.988-2L204,1689A2.005,2.005,0,0,0,202,1687Z"
+												transform="translate(-182 -1687)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">TV & Video</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">TV & Video</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12">
-										<path
-											d="M200.5,1755a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,200.5,1755Zm-4,3a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,196.5,1758Zm-4.5-2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2Zm10-7H184a2.006,2.006,0,0,0-2,2v8a2.006,2.006,0,0,0,2,2h18a2.005,2.005,0,0,0,2-2v-8A2.005,2.005,0,0,0,202,1749Z"
-											transform="translate(-182 -1749)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="12"
+											viewBox="0 0 22 12">
+											<path
+												d="M200.5,1755a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,200.5,1755Zm-4,3a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,196.5,1758Zm-4.5-2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2Zm10-7H184a2.006,2.006,0,0,0-2,2v8a2.006,2.006,0,0,0,2,2h18a2.005,2.005,0,0,0,2-2v-8A2.005,2.005,0,0,0,202,1749Z"
+												transform="translate(-182 -1749)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Game Consoles</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Game Consoles</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-						<li class="navbar__item">
-							<div class="navbar__item-name">
-								<div class="navbar__item-img">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 16 24">
-										<path
-											d="M187,1814a6,6,0,1,1,6,6A6,6,0,0,1,187,1814Zm14,0a7.973,7.973,0,0,0-3.04-6.27L197,1802h-8l-0.95,5.73a7.968,7.968,0,0,0,0,12.54L189,1826h8l0.959-5.73A7.973,7.973,0,0,0,201,1814Z"
-											transform="translate(-185 -1802)" />
+							<li class="navbar__item">
+								<div class="navbar__item-name">
+									<div class="navbar__item-img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24"
+											viewBox="0 0 16 24">
+											<path
+												d="M187,1814a6,6,0,1,1,6,6A6,6,0,0,1,187,1814Zm14,0a7.973,7.973,0,0,0-3.04-6.27L197,1802h-8l-0.95,5.73a7.968,7.968,0,0,0,0,12.54L189,1826h8l0.959-5.73A7.973,7.973,0,0,0,201,1814Z"
+												transform="translate(-185 -1802)" />
+										</svg>
+									</div>
+									<div class="navbar__item-text">Watches</div>
+								</div>
+								<div class="navbar__item-arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
+										<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
+											transform="translate(-394 -1270)" />
 									</svg>
 								</div>
-								<div class="navbar__item-text">Watches</div>
-							</div>
-							<div class="navbar__item-arrow">
-								<svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10">
-									<path d="M400,1275l-3-5h-2.874l3.018,5L394,1280h3Z"
-										transform="translate(-394 -1270)" />
-								</svg>
-							</div>
-						</li>
-						<!-- /.navbar__item -->
+							</li>
+							<!-- /.navbar__item -->
 
-					</ul>
-					<!-- /.navbar__list -->
-				</nav>
-				<!-- /.navbar -->
+						</ul>
+						<!-- /.navbar__list -->
+					</nav>
+					<!-- /.navbar -->
+					<aside class="info-block">
+						<div class="info-block__title">Look Up In The Sky</div>
+						<div class="info-block__subtile">Astronomy Or Astrology</div>
+					</aside>
+					<!-- /.info-block -->
+				</div>
+				<!-- /.main__aside -->
 
-				<div class="main__content"></div>
+				<div class="main__content">
+					<div class="tabs">
+						<button class="tabs__btn tabs__btn--active">Most Popular</button>
+						<button class="tabs__btn">My Communities</button>
+					</div>
+					<!-- /.tabs -->
+					<div class="cards-wrap">
+
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_1.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_2.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_3.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_4.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_5.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+						<div class="card">
+							<div class="card__header">
+								<div class="card__sale">Sale 10%</div>
+								<div class="card__btns">
+									<button class="card__list">
+										<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10"
+											viewBox="0 0 18 10">
+											<path
+												d="M622,1368h2v-2h-2v2h0Zm0,4h2v-2h-2v2h0Zm0-8h2v-2h-2v2h0Zm4,4h14v-2H626v2h0Zm0,4h14v-2H626v2h0Zm0-10v2h14v-2H626Z"
+												transform="translate(-622 -1362)" />
+										</svg>
+									</button>
+									<button class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.34"
+											viewBox="0 0 20 18.34">
+											<path
+												d="M679.5,1806a5.989,5.989,0,0,0-4.5,2.09,5.987,5.987,0,0,0-4.5-2.09,5.446,5.446,0,0,0-5.5,5.5c0,3.78,3.4,6.86,8.549,11.54l1.45,1.31,1.45-1.32c5.149-4.67,8.55-7.75,8.55-11.53a5.446,5.446,0,0,0-5.5-5.5h0Zm-4.4,15.55-0.1.1-0.1-.1c-4.759-4.31-7.9-7.16-7.9-10.05a3.417,3.417,0,0,1,3.5-3.5,3.912,3.912,0,0,1,3.572,2.36h1.87a3.88,3.88,0,0,1,3.56-2.36,3.417,3.417,0,0,1,3.5,3.5c0,2.89-3.142,5.74-7.9,10.05h0Z"
+												transform="translate(-665 -1806)" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- /.card__header -->
+
+							<div class="card__img">
+								<img src="img/cards/phone_6.jpg" alt="phone">
+							</div>
+							<h4 class="card__title">
+								Asus ZenFone Go ZB452KG
+								(black and white)
+							</h4>
+							<div class="card__rating">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star.svg" alt="star">
+								<img class="card__star" src="img/cards/star_half.svg" alt="star">
+								<img class="card__star" src="img/cards/star_empty.svg" alt="star">
+								<div class="card__rating-value">12</div>
+							</div>
+							<div class="card__footer">
+								<div class="card__price">$ 384.4</div>
+								<button class="icon__cart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path
+											d="M891,1717a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Zm-6-16v2h2l3.6,7.59-1.35,2.45a1.954,1.954,0,0,0-.249.96,2.006,2.006,0,0,0,2,2h12v-2H891.421a0.249,0.249,0,0,1-.252-0.25l0.032-.12,0.9-1.63h7.449a1.992,1.992,0,0,0,1.751-1.03l3.578-6.49A0.977,0.977,0,0,0,905,1704a1,1,0,0,0-1-1H889.209l-0.939-2H885Zm16,16a2,2,0,1,0,2,2,2,2,0,0,0-2-2h0Z"
+											transform="translate(-885 -1701)" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<!-- /.card -->
+
+					</div>
+					<!-- /.cards-wrap -->
+				</div>
 				<!-- /.main__content -->
 			</div>
 			<!-- /.main__row -->

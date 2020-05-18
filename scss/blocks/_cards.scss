@@ -1,0 +1,120 @@
+.cards-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	width: 255px;
+	height: 425px;
+	@include card;
+	padding: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+	}
+
+	&__sale {
+		width: 60px;
+		height: 20px;
+		background-color: $border;
+		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 10px;
+		font-weight: 900;
+		text-transform: uppercase;
+		color: $gray-light;
+	}
+
+	&__btns {
+		display: flex;
+		align-items: center;
+
+		button {
+			cursor: pointer;
+			padding: 0;
+			background: transparent;
+			border: none;
+
+			svg {
+				fill: $gray-light;
+				&:hover {
+					fill: $blue;
+				}
+			}
+		}
+	}
+
+	&__favorite {
+		margin-left: 25px;
+		svg {
+			margin-top: 3px;
+		}
+	}
+
+	&__img {
+		height: 160px;
+		margin-bottom: 35px;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.4;
+		color: $gray;
+	}
+
+	&__rating {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 25px;
+		& > * + * {
+			margin-left: 4px;
+		}
+	}
+
+	&__rating-value {
+		margin-left: 16px;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 1.7;
+		color: $gray-light;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__price {
+		font-size: 16px;
+		font-weight: 900;
+		letter-spacing: 0.16px;
+		color: $gray-title;
+	}
+}
+
+.icon__cart {
+	border: none;
+	background: transparent;
+	padding: 0;
+	margin-left: 15px;
+	cursor: pointer;
+
+	svg {
+		fill: $gray-light;
+		&:hover {
+			fill: $blue;
+		}
+	}
+}

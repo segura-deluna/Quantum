@@ -4,10 +4,13 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	&__aside {
+		width: 100%;
+		max-width: 255px;
+	}
 
 	&__content {
 		width: 100%;
 		max-width: 825px;
-		background-color: rgba(93, 166, 192, 0.28);
 	}
 }
