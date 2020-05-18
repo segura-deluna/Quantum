@@ -1,4 +1,86 @@
 .footer {
-	height: 240px;
-	background-color: rgba(152, 205, 195, 0.34);
+	background-color: #ffffff;
+	&__row {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 50px 0;
+	}
+
+	&__row-copy {
+		padding: 40px 0 45px;
+	}
+
+	&__logo {
+		text-transform: uppercase;
+		font-size: 22px;
+		font-weight: 900;
+		line-height: 1;
+		color: $gray-logo;
+	}
+
+	&__nav {
+		align-items: center;
+	}
+
+	&__social {
+		display: flex;
+		align-items: center;
+	}
+
+	&__social-link {
+		width: 20px;
+		height: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:not(:last-child) {
+			margin-right: 35px;
+		}
+		a {
+			display: block;
+
+			svg {
+				fill: $gray-title;
+				&:hover {
+					fill: $blue;
+				}
+			}
+		}
+	}
+
+	&__copy {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__copy-text {
+		font-size: 14px;
+		font-weight: 500;
+		color: $gray-light;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+
+	&__pay {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 14px;
+		font-weight: 500;
+		color: $gray-light;
+	}
+
+	&__pay-card {
+		margin-left: 25px;
+		& img {
+			margin-left: 20px;
+		}
+	}
+}
+
+.footer-top-wrap {
+	border-bottom: 2px solid $border;
 }

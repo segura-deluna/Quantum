@@ -21,7 +21,7 @@
 	.header-nav__categories-icon {
 		margin-right: 25px;
 
-		.cls-1 {
+		svg {
 			fill: $gray;
 		}
 	}
@@ -29,7 +29,7 @@
 	&:hover {
 		color: $blue;
 
-		.cls-1 {
+		svg {
 			fill: $blue;
 		}
 	}

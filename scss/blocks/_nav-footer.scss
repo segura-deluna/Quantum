@@ -1,0 +1,29 @@
+.nav-footer {
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		& + & {
+			margin-left: 60px;
+		}
+	}
+
+	&__link {
+		font-size: 16px;
+		font-weight: 500;
+		color: $gray-title;
+		&:hover {
+			color: $blue;
+		}
+	}
+
+	&__link--dropdown {
+		svg {
+			fill: $gray-title;
+			&:hover {
+				fill: $blue;
+			}
+		}
+	}
+}
